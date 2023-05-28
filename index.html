@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đặt lịch</title>
+</head>
+<body>
+    <h1>Đặt lịch</h1>
+    <form action="send_email.php" method="post">
+        <label for="name">Tên:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="grade">Khối:</label>
+        <input type="number" id="grade" name="grade" required><br><br>
+
+        <label for="school">Trường:</label>
+        <input type="text" id="school" name="school" required><br><br>
+
+        <label for="exam_date">Ngày thi:</label>
+        <input type="date" id="exam_date" name="exam_date" required><br><br>
+
+        <label for="exam_time">Giờ thi:</label>
+        <input type="time" id="exam_time" name="exam_time" required><br><br>
+
+        <input type="submit" value="Đặt lịch">
+    </form>
+</body>
+</html>
